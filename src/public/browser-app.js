@@ -24,7 +24,6 @@ formDOM.addEventListener('submit', async (e) => {
     usernameInputDOM.value = ''
     passwordInputDOM.value = ''
 
-    localStorage.setItem('token', data.token)
     resultDOM.innerHTML = ''
     tokenDOM.textContent = 'token present'
     tokenDOM.classList.add('text-success')
